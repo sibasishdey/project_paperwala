@@ -7,19 +7,27 @@
    */
   
   .site-header {
-    background-color: rgba(0, 0, 0, .85);
+    background-color: #FFF6FF;
     -webkit-backdrop-filter: saturate(180%) blur(20px);
     backdrop-filter: saturate(180%) blur(20px);
+    font-family: 'Noticia Text', serif;
+    
+  }
+  .justify-content-md-left {
+      justify-content: end;
   }
   .site-header a {
-    color: #8e8e8e;
+    color: #2E0A6A;
     transition: color .15s ease-in-out;
   }
   .site-header a:hover {
     color: #fff;
     text-decoration: none;
   }
-  
+  .navbar-brand {
+      font-weight: 700;
+      font-size: 32px;
+  }
   /*
    * Dummy devices (replace them with your own or something else entirely!)
    */
