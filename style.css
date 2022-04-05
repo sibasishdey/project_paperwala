@@ -1,38 +1,44 @@
 .container {
     max-width: 960px;
-  }
-  
-  /*
+}
+
+
+/*
    * Custom translucent site header
    */
-  
-  .site-header {
+
+.site-header {
     background-color: #FFF6FF;
     -webkit-backdrop-filter: saturate(180%) blur(20px);
     backdrop-filter: saturate(180%) blur(20px);
     font-family: 'Noticia Text', serif;
-    
-  }
-  .justify-content-md-left {
-      justify-content: end;
-  }
-  .site-header a {
+}
+
+.justify-content-md-left {
+    justify-content: end;
+}
+
+.site-header a {
     color: #2E0A6A;
     transition: color .15s ease-in-out;
-  }
-  .site-header a:hover {
+}
+
+.site-header a:hover {
     color: #fff;
     text-decoration: none;
-  }
-  .navbar-brand {
-      font-weight: 700;
-      font-size: 32px;
-  }
-  /*
+}
+
+.navbar-brand {
+    font-weight: 700;
+    font-size: 20px;
+}
+
+
+/*
    * Dummy devices (replace them with your own or something else entirely!)
    */
-  
-  .product-device {
+
+.product-device {
     position: absolute;
     right: 10%;
     bottom: -30%;
@@ -41,37 +47,45 @@
     background-color: #333;
     border-radius: 21px;
     transform: rotate(30deg);
-  }
-  
-  .product-device::before {
+}
+
+.product-device::before {
     position: absolute;
     top: 10%;
     right: 10px;
     bottom: 10%;
     left: 10px;
     content: "";
-    background:url(img/1.png) 0 0 no-repeat;
+    background: url(img/1.png) 0 0 no-repeat;
     border-radius: 5px;
-  }
-  
-  .product-device-2 {
+}
+
+.product-device-2 {
     top: -25%;
     right: auto;
     bottom: 0;
     left: 5%;
     background-color: #e5e5e5;
-  }
-  
-  
-  /*
+}
+
+.backgroundImg {
+    background: url(img/Dashborad.png) 0px -2px / 275px no-repeat;
+    height: 1398px;
+    width: 273px;
+    border-radius: 13px;
+}
+
+
+/*
    * Extra utilities
    */
-  
-  .flex-equal > * {
+
+.flex-equal>* {
     flex: 1;
-  }
-  @media (min-width: 768px) {
-    .flex-md-equal > * {
-      flex: 1;
+}
+
+@media (min-width: 768px) {
+    .flex-md-equal>* {
+        flex: 1;
     }
-  }
+}
