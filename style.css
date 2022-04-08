@@ -1,14 +1,34 @@
-.container {
+/* .container {
     max-width: 960px;
-}
+} */
 
 
 /*
    * Custom translucent site header
    */
 
+.mt20 {
+    margin-top: 20px;
+}
+
+.mt120 {
+    margin-top: 120px;
+}
+
+.mt170 {
+    margin-top: 170px;
+}
+
+.txtLeft {
+    text-align: left;
+}
+
+.txtRight {
+    text-align: right;
+}
+
 .site-header {
-    background-color: #FFF6FF;
+    background-color: #827717;
     -webkit-backdrop-filter: saturate(180%) blur(20px);
     backdrop-filter: saturate(180%) blur(20px);
     font-family: 'Noticia Text', serif;
@@ -19,7 +39,7 @@
 }
 
 .site-header a {
-    color: #2E0A6A;
+    color: #fff;
     transition: color .15s ease-in-out;
 }
 
@@ -33,39 +53,52 @@
     font-size: 20px;
 }
 
+.bg_lightNew {
+    background: #aeea00;
+    color: #000;
+}
+
+.mobileApp {
+    background: url(img/mobileApp1.png) center 0 / cover no-repeat;
+    height: 336px;
+}
+
 
 /*
    * Dummy devices (replace them with your own or something else entirely!)
    */
 
 .product-device {
-    position: absolute;
-    right: 10%;
-    bottom: -30%;
-    width: 300px;
-    height: 540px;
-    background-color: #333;
-    border-radius: 21px;
-    transform: rotate(30deg);
+    /* position: relative;
+    right: 0;
+    bottom: -30%; */
+    width: 488px;
+    height: 816px;
+    left: auto;
+    top: 10%;
+    /* background-color: #333; */
+    transform: rotate(0deg);
+    background: url(img/Addtocart1.png) 0 0 / 67% no-repeat;
 }
 
-.product-device::before {
+
+/* .product-device::before {
     position: absolute;
-    top: 10%;
+    top: 11%;
     right: 10px;
-    bottom: 10%;
-    left: 10px;
+    bottom: 11%;
+    left: 79px;
     content: "";
-    background: url(img/1.png) 0 0 no-repeat;
-    border-radius: 5px;
-}
+    background: url(img/Add_to_cart_new.png) 0 0/ 82% no-repeat;
+} */
 
 .product-device-2 {
     top: -25%;
     right: auto;
     bottom: 0;
     left: 5%;
-    background-color: #e5e5e5;
+    /* background-color: #e5e5e5; */
+    background: url(img/mobileImg.png) 0 0 no-repeat;
 }
 
 .backgroundImg {
@@ -73,6 +106,37 @@
     height: 1398px;
     width: 273px;
     border-radius: 13px;
+}
+
+.bgOne {
+    background-color: #fff;
+    color: #000;
+    ;
+}
+
+.mobileBg {
+    background: url(img/ui.png) center 0 / 50% no-repeat;
+    height: 680px;
+}
+
+.mobileBg1 {
+    background: url(img/notification.png) center 0 / 50% no-repeat;
+    height: 680px;
+}
+
+.mobileBg2 {
+    background: url(img/googlemap.png) center 0 / 50% no-repeat;
+    height: 508px;
+}
+
+.mobileBg3 {
+    background: url(img/paperWalalist.png) center 0 / 60% no-repeat;
+    height: 508px;
+}
+
+.mobileBg4 {
+    background: url(img/bookingScreen.png) center 0 / 60% no-repeat;
+    height: 508px;
 }
 
 
@@ -87,5 +151,9 @@
 @media (min-width: 768px) {
     .flex-md-equal>* {
         flex: 1;
+    }
+    .mobileApp {
+        background-size: 40%;
+        height: 406px;
     }
 }
