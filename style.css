@@ -27,6 +27,10 @@
     text-align: right;
 }
 
+.txtCenter {
+    text-align: center;
+}
+
 .site-header {
     background-color: #827717;
     -webkit-backdrop-filter: saturate(180%) blur(20px);
@@ -115,7 +119,7 @@
 }
 
 .mobileBg {
-    background: url(img/ui.png) center 0 / 50% no-repeat;
+    background: url(img/ui.png) center 0 / 60% no-repeat;
     height: 680px;
 }
 
@@ -130,12 +134,32 @@
 }
 
 .mobileBg3 {
-    background: url(img/paperWalalist.png) center 0 / 60% no-repeat;
+    background: url(img/paperWalalist.png) center 0 / 100% no-repeat;
     height: 508px;
 }
 
 .mobileBg4 {
-    background: url(img/bookingScreen.png) center 0 / 60% no-repeat;
+    background: url(img/Addtocart.png) center 0 / 100% no-repeat;
+    height: 508px;
+}
+
+.mobileBg5 {
+    background: url(img/Addtocart0.png) center 0 / 100% no-repeat;
+    height: 508px;
+}
+
+.mobileBg6 {
+    background: url(img/Addtocart1.png) center 0 / 100% no-repeat;
+    height: 508px;
+}
+
+.mobileBg7 {
+    background: url(img/Addtocart2.png) center 0 / 100% no-repeat;
+    height: 508px;
+}
+
+.mobileBg8 {
+    background: url(img/mobileSucessful.png) center 0 / 100% no-repeat;
     height: 508px;
 }
 
