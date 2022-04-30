@@ -3,6 +3,10 @@
     padding: 0;
 }
 
+.vanish {
+    display: none !important;
+}
+
 .body {
     background: #fff;
     font-family: 'Roboto', sans-serif;
@@ -40,6 +44,14 @@ p {
 
 .mt50 {
     margin-top: 50px;
+}
+
+.pt25 {
+    padding-top: 25px;
+}
+
+.pt50 {
+    padding-top: 50px;
 }
 
 
@@ -95,6 +107,8 @@ p {
 
 .navbar li a {
     border-radius: 10px;
+    padding: 0 10px !important;
+    font-weight: 700;
 }
 
 .navbar li a:hover {
@@ -203,6 +217,16 @@ p {
     bottom: 20px;
     right: 20px;
     display: none;
+}
+
+.footerBg {
+    background: #827717;
+}
+
+.copyRightSec {
+    padding: 10px 0;
+    background-color: rgba(0, 0, 0, 0.2);
+    color: #fff;
 }
 
 
